@@ -1,0 +1,12 @@
+
+
+.catalog__headphones {
+  margin-top: 20px;
+}
+
+.catalog__list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}

@@ -1,0 +1,96 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  height: 407px;
+  background: var(--item-background);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.card:not(:nth-child(3n)){
+  margin-right: 25px;
+}
+
+.card:nth-child(n + 4) {
+  margin-top: 30px;
+}
+
+/*Card info*/
+
+.card__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 54px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.card__title {
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.card__left,
+.card__right {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__left {
+  padding-bottom: 26px;
+}
+
+.card__subtitle {
+  display: flex;
+  align-items: center;
+}
+
+.card__rate {
+  padding-left: 10px;
+  line-height: 20.72px;
+  color: var(--item-rate);
+}
+
+.card__price {
+  color: #FFA542;
+}
+
+.card__price--crossed_out {
+  text-decoration-line: line-through;
+  font-size: 13px;
+  color: #FFCE7F;
+  padding-left: 10px;
+}
+
+.card__action {
+  text-align: right;
+  color: #000000;
+}
+
+.card__action p {
+  margin: 0;
+  cursor: pointer;
+}
+
+/*Card Poster*/
+
+.card__poster {
+  display: flex;
+  align-items:center;
+  width: 350px;
+  height: 237px;
+  padding-top: 15px;
+  padding-left: 65px;
+  padding-right: 65px;
+}
+
+.card__image {
+  display: block;
+  width: 100%;
+}

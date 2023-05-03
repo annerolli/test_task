@@ -1,0 +1,147 @@
+.basket {
+  min-height: 69.3vh;
+}
+
+.basket__main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.basket__title {
+  padding-top: 19px;
+  padding-bottom: 13px;
+  color: var(--basket-title-color);
+}
+.basket__list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.basket__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px;
+  width: 633px;
+  height: 218px;
+  background: var(--item-background);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.basket__item:not(:first-child) {
+  margin-top: 30px;
+}
+
+.basket__item_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.basket__count {
+  margin-top: 17px;
+  display: flex;
+  align-items: center;
+}
+
+.basket__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  background-color: var(--backcground-button-count);
+  border-radius: 50%;
+  border-width: 0;
+}
+
+.basket__item_count {
+  padding: 0 23px;
+  color: var(--color-count);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.basket__poster {
+  display: flex;
+  width: 147px;
+  height: 136px;
+}
+
+.basket__image {
+  display: block;
+  width: 100%;
+}
+
+.basket__item_title {
+  color: var(--color-link);
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.basket__price {
+  display: block;
+  margin-top: 12px;
+  color: var(--title-color);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.basket__price--focus {
+  color: var(--color-link);
+}
+
+.basket__info {
+  padding-left: 24px;
+  padding-right: 24px;
+  flex-grow: 1;
+}
+
+.basket__action {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.basket__button_delete {
+  background-color: transparent;
+  border: none;
+}
+
+
+.basket__total_info {
+  padding-top: 22px;
+  padding-right: 16px;
+  padding-left: 22px;
+  display: flex;
+  justify-content: space-between;
+  width: 349px;
+  height: 114px;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.basket__button_total {
+  transform: translateY(-100%);
+  width: 349px;
+  background: var(--backcground-button-total);
+  border-width: 0;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 17px;
+  text-align: center;
+  color: var(--color-button);
+  padding: 22px;
+}
+

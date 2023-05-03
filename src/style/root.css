@@ -1,0 +1,28 @@
+:root {
+  /*body*/ 
+  --backcground-body: #E5E5E5;
+
+  /*Item*/
+  --item-background: #FFFFFF;
+  --item-rate: #838383;
+
+
+  /*Title*/
+
+  --title-color: #838383;
+  --h1-color: #000000;
+  --basket-title-color: #1C1C27;
+
+  /*Button*/
+
+  --backcground-button:  #FFA542;
+  --color-button: #FFFFFF;
+  --backcground-button-count: #FFCE7F;
+  --color-count: #000000;
+  --backcground-button-total: #101010;
+
+  /*Link*/
+
+  --color-link-focus: #FFA542;
+  --color-link: #000000;
+}

@@ -1,0 +1,83 @@
+.footer {
+  height: 149px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 30px 30px 0px 0px;
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 29px 29px 20px 29px;
+}
+
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer__title,
+.footer__title:visited {
+  color: var(--h1-color);
+}
+
+
+.footer__contact_list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.footer__contact_item:not(:last-child) {
+  margin-right: 18px;
+}
+
+.footer__lang {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 42px;
+}
+
+
+.footer__lang_list {
+  display: flex;
+  list-style-type: none;
+  
+}
+
+.footer__lang_icon {
+  margin-right: 19px;
+}
+
+.footer__lang_item {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.footer__lang_item:not(:last-child) {
+  margin-right: 17px;
+}
+
+.footer__lang_item:hover {
+  color: var(--color-link-focus);
+}
+
+.footer__list {
+  list-style-type: none;
+  
+}
+
+.footer__list_item:not(:first-child) {
+  padding-top: 11px;
+}
+
+.footer__list_item a,
+.footer__list_item a:visited {
+  color: var(--color-link);
+}
